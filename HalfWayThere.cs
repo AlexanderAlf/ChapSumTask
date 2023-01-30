@@ -5,3 +5,8 @@
 // При решении не рекомендуется пользоваться коллекциями, лучше обойтись исключительно массивами.
 
 string[] mas = new string[] { "One", "Two", "Three", "Four", "Five" };
+for (int i = 0; i < mas.Length; i++)
+{
+    if (mas[i].Length <= 3)
+        Console.WriteLine(mas[i]);
+}
